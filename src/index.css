@@ -114,7 +114,7 @@ p {
   font-family: var(--ff-sans-normal);
   font-size: var(--fs-400);
   color: hsl(var(--clr-white));
-  background-color: #0000009f;
+  background-color: hsl(var(--clr-dark) / .8);
   line-height: 1.5;
   min-height: 100vh;
   display: grid;
