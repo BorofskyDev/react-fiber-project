@@ -527,6 +527,7 @@ select {
 
   .mobile-nav-toggle {
     display: block;
+    cursor: pointer;
     position: absolute;
     z-index: 2000;
     right: 1rem;

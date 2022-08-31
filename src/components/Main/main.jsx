@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import './earth.css';
 import '../../index.css';
 import logo from '../Assets/Icons/logo.svg';
 
+
+
+
 export function TopSection() {
+ 
+  const visibility = useRef(null)
+
+  
+
   return (
     <>
       <div className="canvas-container">
@@ -23,9 +31,10 @@ export function TopSection() {
             </span>
           </button>
           <nav>
+           
             <ul
               id="primary-navigation"
-              data-visible="false"
+              data-visible="fale"
               className="primary-navigation underline-indicators flex"
             >
               <li>
